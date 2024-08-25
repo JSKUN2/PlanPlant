@@ -31,6 +31,7 @@
             font-size: 16px;
             margin-left: 6vw;
             margin-right: 6vw;
+            display: none;
         }
         #hasil {
             margin-top: 2vh;
@@ -117,7 +118,7 @@
             </div>
         </nav>
         <br>
-        <h1 class="judul">Cari Tanaman Anda!</h1>
+        <h1 class="judul"></h1>
         <input type="text" id="search-input" placeholder="Masukkan nama tanaman">
         <hr>
     </header>
@@ -250,7 +251,7 @@
 
                 $(".judul").text("Cari Tanaman Anda!");
                 $("#search-input").show();
-                $resultList.empty(); // Clear previous results
+                $resultList.empty();
             });
 
             $("#pupuk").click(async function (e) { 
@@ -259,7 +260,7 @@
 
                 $(".judul").text("Cari Pupuk Organik Sesuai Kebutuhan Anda!");
                 $("#search-input").hide();
-                $resultList.empty(); // Clear previous results
+                $resultList.empty();
 
                 pupuk.forEach(item => {
                     $('<div>', {
@@ -276,7 +277,7 @@
 
                 $(".judul").text("Cari Metode Pertanian Sesuai Kebutuhan Anda!");
                 $("#search-input").hide();
-                $resultList.empty(); // Clear previous results
+                $resultList.empty();
 
                 metodeP.forEach(item => {
                     $('<div>', {
