@@ -1,0 +1,89 @@
+[
+    {
+        "metode": "Pertanian organik",
+        "tahapan": [
+            {
+                "tahap": "Persiapan lahan",
+                "saran_pupuk": "Biochar, JADAM",
+                "langkah": "Pertama-tama bersihkan lahan dari gulma dan batu. Gemburkan tanah dengan cangkul atau bajak. Taburkan biochar di atas tanah dengan takaran 1-3 kg per meter persegi, lalu aduk sampai tercampur. Siramkan pupuk JADAM yang sudah disiapkan secara merata dan biarkan tanah menyerap selama 1-2 minggu. Buat bedengan setinggi 20-30 cm, lalu tutup dengan mulsa seperti jerami untuk menjaga kelembaban dan mencegah gulma. Pastikan ada sistem penyiraman, dan cek pH tanah agar sesuai dengan kebutuhan tanaman.",
+                "tips": "Gunakan alat pertanian kecil untuk menghindari pemadatan tanah, dan hindari penggunaan alat yang besar."
+            },
+            {
+                "tahap": "Penanaman benih",
+                "saran_pupuk": "Bokashi",
+                "langkah": "Taburkan pupuk Bokashi secara merata di atas lahan yang sudah diolah dengan dosis 1-2 kg per meter persegi, lalu campurkan ke lapisan atas tanah hingga kedalaman 5-10 cm. Buat lubang kecil sesuai ukuran benih, tanam benih, dan tutup dengan tanah. Siram tanah dengan air secukupnya dan pastikan tanah tetap lembab tanpa tergenang agar nutrisi tidak terbawa keluar.",
+                "tips": "Pastikan lubang benih tidak terlalu dalam maupun terlalu dangkal agar benih dapat berkecambah dengan baik."
+            },
+            {
+                "tahap": "Perawatan tanaman",
+                "saran_pupuk": "JAKABA",
+                "langkah": "Siram tanaman secara teratur agar tanah tetap lembab, tapi jangan sampai tergenang. Pakai pupuk organik cair agar mudah diaplikasikan seperti JAKABA dan campurkan air dengan rasio 1:10. Atasi hama dengan cara yang ramah lingkungan dan bersihkan gulma yang mengganggu tanaman. Pangkas bagian tanaman yang mati atau sakit. Amati tanaman setiap hari untuk melihat kalau ada masalah dan gunakan mulsa organik untuk menjaga tanah tetap lembab.",
+                "tips": "Pastikan air tidak tergenang dan hindari adanya semut di sekitar akar tanaman untuk mencegah pembusukan."
+            },
+            {
+                "tahap": "Pemanenan",
+                "saran_pupuk": "Pupuk alga, guano atau kandang",
+                "langkah": "Saat panen, kuburkan sisa-sisa tanaman ke dalam lahan untuk mencegah hama dan penyakit. Kemudian, berikan pupuk kaya nutrisi seperti pupuk alga, guano, atau pupuk kandang untuk menggantikan unsur hara yang hilang. Ratakan tanah untuk mencegah genangan air dan persiapkan untuk penanaman berikutnya.",
+                "tips": "Jangan buang hasil panen yang busuk; olah menjadi pupuk atau langsung kuburkan ke tanah."
+            }
+        ]
+    },
+    {
+        "metode": "Pertanian hidroponik organik",
+        "tahapan": [
+            {
+                "tahap": "Persiapan sistem",
+                "saran_pupuk": "Pupuk organik cair, kompos cair",
+                "langkah": "Bersihkan semua alat hidroponik. Siapkan sistem sesuai jenisnya (seperti NFT atau DFT). Campurkan pupuk organik cair dengan air dan isi wadah dengan campuran ini. Pastikan semua peralatan bekerja dengan baik sebelum menanam.",
+                "tips": "Periksa pH dan kekuatan larutan secara rutin."
+            },
+            {
+                "tahap": "Penanaman bibit",
+                "saran_pupuk": "Nutrisi hidroponik organik (gunakan kompos cair sebagai alternatif)",
+                "langkah": "Semai bibit di media seperti rockwool. Setelah bibit tumbuh dengan baik, pindahkan ke sistem hidroponik. Pastikan akar bibit menyentuh larutan nutrisi. Cek pH dan tambahkan pupuk jika diperlukan.",
+                "tips": "Gunakan penyiram dengan hati-hati agar bibit tidak rusak."
+            },
+            {
+                "tahap": "Perawatan tanaman",
+                "saran_pupuk": "Kompos cair, ekstrak alga",
+                "langkah": "Periksa sistem hidroponik secara berkala. Tambahkan pupuk organik seperti kompos cair dan ekstrak alga, dan cek pH larutan. Jaga kebersihan sistem untuk mencegah masalah. Pangkas tanaman jika perlu dan pastikan tanaman mendapatkan cahaya yang cukup.",
+                "tips": "Gunakan filter untuk menjaga kebersihan sistem."
+            },
+            {
+                "tahap": "Pemanenan",
+                "saran_pupuk": "Kompos cair, pupuk alga",
+                "langkah": "Panen tanaman saat sudah siap. Setelah itu, bersihkan sisa tanaman dari sistem dan ganti larutan nutrisi dengan yang baru. Tambahkan kompos cair untuk menyegarkan sistem sebelum menanam lagi.",
+                "tips": "Jangan biarkan sisa tanaman menumpuk untuk menghindari masalah."
+            }
+        ]
+    },
+    {
+        "metode": "Pertanian permakultur",
+        "tahapan": [
+            {
+                "tahap": "Perencanaan desain",
+                "saran_pupuk": "Kompos, Pupuk Alga, Pupuk Biochar",
+                "langkah": "Rencanakan tata letak area pertanian. Tentukan elemen seperti tanaman, air, dan tanah. Buat desain yang saling mendukung. Gunakan kompos untuk menambah kesuburan tanah, pupuk alga untuk mineral penting, dan biochar untuk memperbaiki struktur tanah.",
+                "tips": "Perhatikan pola matahari, arah angin, dan sumber air agar desain lebih baik."
+            },
+            {
+                "tahap": "Penanaman dan pengelolaan",
+                "saran_pupuk": "Vermikompos, Pupuk Kandang, Pupuk Hijau, Pupuk Bokashi",
+                "langkah": "Tanam berbagai jenis tanaman yang saling mendukung. Gunakan vermikompos, pupuk kandang, pupuk hijau, dan bokashi untuk meningkatkan kualitas tanah dan memberi nutrisi. Jaga kebersihan area dan hindari pestisida kimia.",
+                "tips": "Ganti tanaman secara berkala untuk menjaga kesehatan tanah dan mencegah hama."
+            },
+            {
+                "tahap": "Perawatan dan pemeliharaan",
+                "saran_pupuk": "Kompos, Pupuk JADAM, Pupuk JAKABA",
+                "langkah": "Periksa tanaman, bersihkan gulma, dan pastikan sistem irigasi berfungsi. Tambahkan kompos untuk kesuburan tanah, dan gunakan JADAM dan JAKABA untuk mendukung mikroba tanah.",
+                "tips": "Gunakan teknik yang tidak merusak ekosistem seperti pemangkasan ringan dan mulsa."
+            },
+            {
+                "tahap": "Pemanenan dan evaluasi",
+                "saran_pupuk": "Kompos, Pupuk Alga",
+                "langkah": "Panen tanaman pada waktunya. Setelah panen, tambahkan sisa tanaman ke tanah sebagai kompos. Evaluasi hasil dan desain untuk perbaikan pada siklus berikutnya.",
+                "tips": "Jangan buang sisa tanaman; gunakan untuk memperbaiki tanah dan mendukung ekosistem."
+            }
+        ]
+    }
+]

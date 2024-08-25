@@ -1,0 +1,2162 @@
+[
+    {
+        "nama_tanaman": "Padi",
+        "nama_latin": "Oryza sativa",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "Tanah selalu tergenang air",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 120,
+            "P": 60,
+            "K": 80
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Jagung",
+        "nama_latin": "Zea mays",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 150,
+            "P": 60,
+            "K": 80
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kedelai",
+        "nama_latin": "Glycine max",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Kacang tanah",
+        "nama_latin": "Arachis hypogaea",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 5 bulan"
+    },
+    {
+        "nama_tanaman": "Ubi jalar",
+        "nama_latin": "Ipomoea batatas",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "5 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Singkong",
+        "nama_latin": "Manihot esculenta",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "8 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kentang",
+        "nama_latin": "Solanum tuberosum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 2000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Cabe merah",
+        "nama_latin": "Capsicum annuum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Bawang merah",
+        "nama_latin": "Allium cepa",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Bawang putih",
+        "nama_latin": "Allium sativum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Tomat",
+        "nama_latin": "Solanum lycopersicum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Wortel",
+        "nama_latin": "Daucus carota",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kubis",
+        "nama_latin": "Brassica oleracea",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Kangkung air",
+        "nama_latin": "Ipomoea aquatica",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "3 kali seminggu <br> atau tanah selalu tergenang",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Bayam",
+        "nama_latin": "Spinacia oleracea",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Selada",
+        "nama_latin": "Lactuca sativa",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Terong",
+        "nama_latin": "Solanum melongena",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Labu",
+        "nama_latin": "Cucurbita spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 90,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Mentimun",
+        "nama_latin": "Cucumis sativus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Pare",
+        "nama_latin": "Momordica charantia",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kacang hijau",
+        "nama_latin": "Vigna radiata",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kacang panjang",
+        "nama_latin": "Vigna unguiculata",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Sawi",
+        "nama_latin": "Brassica rapa",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Selada air",
+        "nama_latin": "Nasturtium officinale",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Pakcoy",
+        "nama_latin": "Brassica rapa var. chinensis",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Daun bawang",
+        "nama_latin": "Allium fistulosum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Jeruk",
+        "nama_latin": "Citrus sinensis",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Apel",
+        "nama_latin": "Malus domestica",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Pisang",
+        "nama_latin": "Musa spp.",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 120,
+            "P": 60,
+            "K": 80
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "9 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Mangga",
+        "nama_latin": "Mangifera indica",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Jambu biji",
+        "nama_latin": "Psidium guajava",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Sirsak",
+        "nama_latin": "Annona muricata",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Jeruk nipis",
+        "nama_latin": "Citrus aurantiifolia",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Rambutan",
+        "nama_latin": "Nephelium lappaceum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Durian",
+        "nama_latin": "Durio spp.",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "12 - 18 bulan"
+    },
+    {
+        "nama_tanaman": "Cempedak",
+        "nama_latin": "Artocarpus champeden",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Jambu air",
+        "nama_latin": "Syzygium samarangense",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Belimbing",
+        "nama_latin": "Averrhoa carambola",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kunci",
+        "nama_latin": "Boesenbergia rotunda",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Temulawak",
+        "nama_latin": "Curcuma xanthorrhiza",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Jahe",
+        "nama_latin": "Zingiber officinale",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kunyit",
+        "nama_latin": "Curcuma longa",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Lengkuas",
+        "nama_latin": "Alpinia galanga",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Serai",
+        "nama_latin": "Cymbopogon citratus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Daun salam",
+        "nama_latin": "Syzygium polyanthum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kemiri",
+        "nama_latin": "Aleurites molucanna",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Tebu",
+        "nama_latin": "Saccharum officinarum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "9 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kelapa",
+        "nama_latin": "Cocos nucifera",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "5 - 7 tahun"
+    },
+    {
+        "nama_tanaman": "Sawit",
+        "nama_latin": "Elaeis guineensis",
+        "PH_tanah_optimal": "4.5 - 6.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 100,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 tahun"
+    },
+    {
+        "nama_tanaman": "Kakao",
+        "nama_latin": "Theobroma cacao",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Kopi",
+        "nama_latin": "Coffea spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 2000 mdpl",
+        "waktu_panen": "2 - 4 tahun"
+    },
+    {
+        "nama_tanaman": "Teh",
+        "nama_latin": "Camellia sinensis",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 2000 mdpl",
+        "waktu_panen": "2 - 3 tahun"
+    },
+    {
+        "nama_tanaman": "Vanili",
+        "nama_latin": "Vanilla planifolia",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "8 - 10 bulan"
+    },
+    {
+        "nama_tanaman": "Cengkeh",
+        "nama_latin": "Syzygium aromaticum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Kayu manis",
+        "nama_latin": "Cinnamomum verum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Pala",
+        "nama_latin": "Myristica fragrans",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "7 - 9 bulan"
+    },
+    {
+        "nama_tanaman": "Kapulaga",
+        "nama_latin": "Elettaria cardamomum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Jarak pagar",
+        "nama_latin": "Jatropha curcas",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Lidah buaya",
+        "nama_latin": "Aloe vera",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "1 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "8 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Rosella",
+        "nama_latin": "Hibiscus sabdariffa",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Buncis",
+        "nama_latin": "Phaseolus vulgaris",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Lobak",
+        "nama_latin": "Raphanus sativus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 50,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Kacang kapri",
+        "nama_latin": "Pisum sativum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Sayur bayam merah",
+        "nama_latin": "Amaranthus tricolor",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Kencur",
+        "nama_latin": "Kaempferia galanga",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Kenikir",
+        "nama_latin": "Cosmos caudatus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Selametan",
+        "nama_latin": "Solanum torvum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Jengkol",
+        "nama_latin": "Archidendron jiringa",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Petai",
+        "nama_latin": "Parkia speciosa",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Gandum",
+        "nama_latin": "Triticum spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 2000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Melon",
+        "nama_latin": "Cucumis melo",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Semangka",
+        "nama_latin": "Citrullus lanatus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Buah naga",
+        "nama_latin": "Hylocereus spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Taro",
+        "nama_latin": "Colocasia esculenta",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "8 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Rumput laut",
+        "nama_latin": "Porphyra spp.",
+        "PH_tanah_optimal": "6.5 - 8.0",
+        "frekuensi_penyiraman": "N/A",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 50,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "Tepi laut",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Pepaya Caliput",
+        "nama_latin": "Carica papaya",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Timun suri",
+        "nama_latin": "Cucumis melo var. flexuosus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Terong belanda",
+        "nama_latin": "Solanum betaceum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Bit",
+        "nama_latin": "Beta vulgaris",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Asparagus",
+        "nama_latin": "Asparagus officinalis",
+        "PH_tanah_optimal": "7.0 - 8.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Okra",
+        "nama_latin": "Abelmoschus esculentus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kacang mete",
+        "nama_latin": "Anacardium occidentale",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 tahun"
+    },
+    {
+        "nama_tanaman": "Ketumbar",
+        "nama_latin": "Coriandrum sativum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Melinjo",
+        "nama_latin": "Gnetum gnemon",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Jeruk bali",
+        "nama_latin": "Citrus maxima",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "8 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Sawo",
+        "nama_latin": "Chrysophyllum cainito",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Cempedak bali",
+        "nama_latin": "Artocarpus integer",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "24 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 tahun"
+    },
+    {
+        "nama_tanaman": "Salak pondoh",
+        "nama_latin": "Salacca zalacca",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "24 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 tahun"
+    },
+    {
+        "nama_tanaman": "Buah anggur",
+        "nama_latin": "Vitis vinifera",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 5 bulan"
+    },
+    {
+        "nama_tanaman": "Alpukat",
+        "nama_latin": "Persea americana",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 tahun"
+    },
+    {
+        "nama_tanaman": "Cempaka",
+        "nama_latin": "Michelia champaca",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Bayam Brazil",
+        "nama_latin": "Amaranthus dubius",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Peperomia",
+        "nama_latin": "Peperomia spp.",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "1 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "18 - 24°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Buah pir",
+        "nama_latin": "Pyrus spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Bayam hijau",
+        "nama_latin": "Amaranthus viridis",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 bulan"
+    },
+    {
+        "nama_tanaman": "Labu kunir",
+        "nama_latin": "Cucurbita pepo",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Petai jengkol",
+        "nama_latin": "Archidendron pauciflorum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "24 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Kacang tolo",
+        "nama_latin": "Vigna subterranea",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Jeruk keprok",
+        "nama_latin": "Citrus reticulata",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Manggis bali",
+        "nama_latin": "Garcinia mangostana",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "24 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 tahun"
+    },
+    {
+        "nama_tanaman": "Bunga telang",
+        "nama_latin": "Clitoria ternatea",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Cabai rawit",
+        "nama_latin": "Capsicum frutescens",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Bawang prei",
+        "nama_latin": "Allium porrum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Daun mint",
+        "nama_latin": "Mentha spp.",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Thyme",
+        "nama_latin": "Thymus vulgaris",
+        "PH_tanah_optimal": "6.0 - 8.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Rosemary",
+        "nama_latin": "Rosmarinus officinalis",
+        "PH_tanah_optimal": "6.0 - 7.5",
+        "frekuensi_penyiraman": "1 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Basil",
+        "nama_latin": "Ocimum basilicum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Lemon",
+        "nama_latin": "Citrus limon",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Lemon balm",
+        "nama_latin": "Melissa officinalis",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Stevia",
+        "nama_latin": "Stevia rebaudiana",
+        "PH_tanah_optimal": "6.7 - 7.2",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Kurma",
+        "nama_latin": "Phoenix dactylifera",
+        "PH_tanah_optimal": "6.0 - 8.0",
+        "frekuensi_penyiraman": "1 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Lengkeng",
+        "nama_latin": "Dimocarpus longan",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Kolang Kaling",
+        "nama_latin": "Arenga pinnata",
+        "PH_tanah_optimal": "6.0 - 7.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Andaliman",
+        "nama_latin": "Zanthoxylum acanthopodium",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "4 - 6 bulan"
+    },
+    {
+        "nama_tanaman": "Merica",
+        "nama_latin": "Piper nigrum",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 50,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Kumis Kucing",
+        "nama_latin": "Orthosiphon aristatus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Ginseng",
+        "nama_latin": "Panax ginseng",
+        "PH_tanah_optimal": "6.0 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 40,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "4 - 6 tahun"
+    },
+    {
+        "nama_tanaman": "Lohanko",
+        "nama_latin": "Ficus carica",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Sambiloto",
+        "nama_latin": "Andrographis paniculata",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "2 - 3 bulan"
+    },
+    {
+        "nama_tanaman": "Ginko Biloba",
+        "nama_latin": "Ginkgo biloba",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "10 - 15 tahun"
+    },
+    {
+        "nama_tanaman": "Kayu Secang",
+        "nama_latin": "Caesalpinia sappan",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "2 - 3 tahun"
+    },
+    {
+        "nama_tanaman": "Pegagang",
+        "nama_latin": "Strobilanthes crispa",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "500 - 1500 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Sirih",
+        "nama_latin": "Piper betle",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Sirih Merah",
+        "nama_latin": "Piper betle var. rubrum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Sirih Cina",
+        "nama_latin": "Piper sarmentosum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 30,
+            "P": 20,
+            "K": 30
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Uwi",
+        "nama_latin": "Dioscorea alata",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 40,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "6 - 12 bulan"
+    },
+    {
+        "nama_tanaman": "Sorgum",
+        "nama_latin": "Sorghum bicolor",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 50,
+            "P": 20,
+            "K": 60
+        },
+        "suhu_optimal": "25 - 35°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 mdpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Sagu",
+        "nama_latin": "Metroxylon sagu",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "3 - 4 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 40,
+            "P": 20,
+            "K": 50
+        },
+        "suhu_optimal": "27 - 32°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 500 mdpl",
+        "waktu_panen": "5 - 10 tahun"
+    },
+    {
+        "nama_tanaman": "Lada Panjang",
+        "nama_latin": "Piper longum",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "25 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 mdpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Bawang Bombay",
+        "nama_latin": "Allium cepa var. cepa",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "13 - 24°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1500 m dpl",
+        "waktu_panen": "100 - 120 hari"
+    },
+    {
+        "nama_tanaman": "Strawberry",
+        "nama_latin": "Fragaria × ananassa",
+        "PH_tanah_optimal": "5.5 - 6.8",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang - Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 70
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "600 - 1000 m dpl",
+        "waktu_panen": "3 - 4 bulan"
+    },
+    {
+        "nama_tanaman": "Blueberry",
+        "nama_latin": "Vaccinium corymbosum",
+        "PH_tanah_optimal": "4.5 - 5.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Sedang - Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 40
+        },
+        "suhu_optimal": "13 - 22°C",
+        "ketinggian_lokasi_penanaman_optimal": "700 - 1500 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Raspberry",
+        "nama_latin": "Rubus idaeus",
+        "PH_tanah_optimal": "5.6 - 6.2",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 70,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "500 - 1000 m dpl",
+        "waktu_panen": "1 - 2 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Blackberry",
+        "nama_latin": "Rubus fruticosus",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 40,
+            "K": 70
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "800 - 1200 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Cranberry",
+        "nama_latin": "Vaccinium macrocarpon",
+        "PH_tanah_optimal": "4.0 - 5.0",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "10 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "400 - 1000 m dpl",
+        "waktu_panen": "3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Gooseberry",
+        "nama_latin": "Ribes uva - crispa",
+        "PH_tanah_optimal": "6.0 - 6.8",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Sedang - Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 21°C",
+        "ketinggian_lokasi_penanaman_optimal": "500 - 1200 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Mulberry",
+        "nama_latin": "Morus alba",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 60,
+            "K": 70
+        },
+        "suhu_optimal": "15 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "300 - 1500 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Elderberry",
+        "nama_latin": "Sambucus nigra",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "600 - 1200 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Boysenberry",
+        "nama_latin": "Rubus ursinus × Rubus idaeus",
+        "PH_tanah_optimal": "5.5 - 7.0",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Sedang - Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 40,
+            "K": 50
+        },
+        "suhu_optimal": "15 - 25°C",
+        "ketinggian_lokasi_penanaman_optimal": "500 - 1000 m dpl",
+        "waktu_panen": "2 - 3 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Lingonberry",
+        "nama_latin": "Vaccinium vitis - idaea",
+        "PH_tanah_optimal": "4.5 - 5.5",
+        "frekuensi_penyiraman": "2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 50,
+            "K": 60
+        },
+        "suhu_optimal": "10 - 20°C",
+        "ketinggian_lokasi_penanaman_optimal": "600 - 1200 m dpl",
+        "waktu_panen": "3 - 4 tahun (tanaman berbuah)"
+    },
+    {
+        "nama_tanaman": "Bengkuang",
+        "nama_latin": "Pachyrhizus erosus",
+        "PH_tanah_optimal": "6.0 - 7.0",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 m dpl",
+        "waktu_panen": "6 - 8 bulan"
+    },
+    {
+        "nama_tanaman": "Kimpul",
+        "nama_latin": "Xanthosoma sagittifolium",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Sedang",
+        "nutrisi": {
+            "N": 60,
+            "P": 30,
+            "K": 50
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 m dpl",
+        "waktu_panen": "8 - 10 bulan"
+    },
+    {
+        "nama_tanaman": "Sawo Kecik",
+        "nama_latin": "Manilkara zapota",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "1 - 2 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 70,
+            "P": 40,
+            "K": 60
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 m dpl",
+        "waktu_panen": "1 - 2 tahun"
+    },
+    {
+        "nama_tanaman": "Sukun",
+        "nama_latin": "Artocarpus altilis",
+        "PH_tanah_optimal": "5.5 - 6.5",
+        "frekuensi_penyiraman": "2 - 3 kali seminggu",
+        "intensitas_matahari": "Tinggi",
+        "nutrisi": {
+            "N": 80,
+            "P": 50,
+            "K": 70
+        },
+        "suhu_optimal": "20 - 30°C",
+        "ketinggian_lokasi_penanaman_optimal": "0 - 1000 m dpl",
+        "waktu_panen": "6 - 12 bulan"
+    }
+]

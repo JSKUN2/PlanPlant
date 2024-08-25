@@ -1,0 +1,316 @@
+[
+    {
+        "nama_pupuk": "Kompos (Nutrisi dan struktur tanah)",
+        "bahan_baku": [
+            "Bahan organik hijau (Yang mudah terurai seperti dedaunan)",
+            "Bahan organik coklat (Yang susah terurai seperti batang/ranting kering)",
+            "Air",
+            "Perbandingan bahan organik hijau dan bahan organik coklat 30:1"
+        ],
+        "cara_pembuatan": [
+            "Pisahkan sampah organik dari non-organik.",
+            "Gunakan sisa sayur segar, batang akar, dan daun tua.",
+            "Cincang sampah organik menjadi ukuran 1-2 cm.",
+            "Diamkan sampah cincang untuk pembusukan.",
+            "Gunakan larutan EM4 atau tunggu hingga membusuk sendiri.",
+            "Pastikan campuran tetap lembab tapi tidak sampai basah dengan air",
+            "Simpan sampah organik di tempat tertutup rapat dan kedap udara.",
+            "Gunakan ember dengan tutup rapat untuk hasil lebih baik.",
+            "Diamkan selama 2 minggu, aduk setiap 3 hari.",
+            "Hasilkan pupuk kompos padat dan cair."
+        ],
+        "perkiraan_NPK": {
+            "N": "0,05 - 0,15 gram",
+            "P": "0,02 - 0,07 gram",
+            "K": "0,05 - 0,1 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah, memperbaiki aerasi, dan retensi air.",
+            "kimia": "Menambah kandungan nutrisi tanah dengan unsur hara yang seimbang.",
+            "biologis": "Meningkatkan aktivitas mikroorganisme tanah dan proses dekomposisi."
+        }
+    },
+    {
+        "nama_pupuk": "Vermikompos (Nutrisi dan mikroba tanah)",
+        "bahan_baku": [
+            "Dua wadah plastik (satu lebih besar untuk wadah luar, satu lebih kecil untuk wadah dalam)",
+            "Bor untuk membuat lubang kecil",
+            "Pengatur jarak (seperti potongan kayu, wadah kecil, atau cangkir kopi)",
+            "Kain lanskap atau jaring halus",
+            "Bahan organik (seperti sampah pekarangan dan sisa dapur)",
+            "Cacing (jentik-jentik merah)",
+            "Tutup wadah dengan lubang untuk sirkulasi udara"
+        ],
+        "cara_pembuatan": [
+            "Gunakan dua wadah plastik, satu wadah di dalam wadah lainnya dengan lubang kecil di bagian bawah untuk mengalirkan air.",
+            "Letakkan pengatur jarak di bagian bawah wadah luar untuk menampung kelebihan air, gunakan barang seperti potongan kayu atau wadah kecil.",
+            "Buat satu tutup dengan lubang udara dan tutupi dengan kain lanskap atau jaring halus untuk mencegah cacing keluar dan mengurangi bau.",
+            "Mulailah dengan bahan organik seperti sampah pekarangan, pastikan bahan tetap lembap tetapi tidak terlalu basah.",
+            "Tambahkan cacing seperti jentik-jentik merah yang bisa didapat dari pemasok atau dikumpulkan sendiri.",
+            "Beri makan tempat pengomposan secara teratur dengan bahan organik, hindari daging, produk susu, dan jeruk.",
+            "Setelah beberapa bulan, kompos siap digunakan dan dapat dihasilkan lebih cepat dibandingkan metode tradisional."
+        ],
+        "perlu_dilarutkan_dengan_air": "Ya, 1 liter air",
+        "takaran_bahan_baku": "1 liter air dengan 1 liter vermicompost",
+        "perkiraan_NPK": {
+            "N": "0.1 - 0.2 gram",
+            "P": "0.05 - 0.1 gram",
+            "K": "0.05 - 0.1 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kemampuan tanah untuk menyimpan air.",
+            "kimia": "Menambah unsur hara yang penting untuk pertumbuhan tanaman.",
+            "biologis": "Menambah populasi mikroorganisme yang bermanfaat dalam tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Kandang (Nutrisi dan struktur tanah)",
+        "bahan_baku": [
+            "1 ton kotoran kambing",
+            "200 kg kapur pertanian (Dolomit)",
+            "200 kg abu/sekam/bekas gergaji",
+            "4 botol EM4 (Decomposer)"
+        
+        ],
+        "cara_pembuatan": [
+            "Siapkan tempat atau hamparan yang ternaungi dan pastikan tidak tergenang air saat hujan.",
+            "Campur bahan dengan cara membuat lapisan-lapisan agar pencampuran merata.",
+            "Buat lapisan pertama dengan menghamparkan kotoran kambing setebal ±20-30 cm, kemudian taburkan dolomit, abu, dan decomposer secukupnya.",
+            "Siapkan EM4 sesuai dosis yang ditetapkan, larutkan dalam air, dan siramkan pada lapisan hingga kadar air mencapai 40%. Pastikan dengan cara meremas bahan: air tidak menetes dan bahan tidak pecah saat genggaman tangan dibuka.",
+            "Buat lapisan berikutnya hingga semua bahan habis, lalu cangkul lapisan dari satu sisi searah hingga membentuk timbunan baru.",
+            "Ulangi mencangkul ke arah yang berlawanan, lalu timbun atau bentuk gunungan sebesar lebar terpal penutup.",
+            "Tutup timbunan rapat dengan terpal dan beri beban di bagian pinggir agar terpal tidak terbuka saat ada angin.",
+            "Diamkan selama 1 minggu. Setelah itu, buka terpal dan aduk timbunan untuk memberi aerasi pada proses pengomposan. Proses pengomposan yang berhasil ditandai dengan munculnya panas saat pembongkaran gundukan.",
+            "- Setelah sekitar 3 minggu, kompos bisa dibongkar dan diangin-anginkan untuk menghilangkan bau amoniak, sehingga siap untuk digunakan."
+          ],
+        "perkiraan_NPK": {
+            "N": "0.5 - 1 gram",
+            "P": "0.02 - 0.05 gram",
+            "K": "0.5 - 1.0 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan aerasi.",
+            "kimia": "Menambah kandungan unsur hara seperti nitrogen, fosfor, dan kalium.",
+            "biologis": "Memperbaiki aktivitas mikroba tanah dan proses dekomposisi."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Hijau (Nutrisi dan struktur tanah)",
+        "bahan_baku": [
+            "200 kg hijau daun atau sampah dapur.10 kg dedak halus.",
+            "¼ kg gula pasir/gula merah.",
+            "¼ liter EM4.",
+            "200 liter air atau secukupnya"
+        ],
+        "cara_pembuatan": [
+            "Cacah dan basahi hijau daun atau sampah dapur.",
+            "Campurkan dedak halus atau bekatul dengan hijau daun.",
+            "Cairkan gula pasir atau gula merah dengan air.",
+            "Masukkan bakteri ke dalam air dan campurkan dengan cairan gula.",
+            "Aduk campuran hingga merata.",
+            "Siram cairan bakteri dan gula pada campuran hijau daun/sampah dan bekatul, lalu aduk sampai rata.",
+            "Tumpuk campuran hingga ketinggian 15-20 cm dan tutup rapat.",
+            "Dalam 3-4 hari, pupuk hijau sudah siap digunakan."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.1 - 0.2 gram",
+            "P": "0.05 - 0.1 gram",
+            "K": "0.05 - 0.1 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas penyerapan air.",
+            "kimia": "Menambah kandungan unsur hara, terutama nitrogen, ke dalam tanah.",
+            "biologis": "Meningkatkan aktivitas mikroorganisme tanah dan proses dekomposisi."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Bokashi (Nutrisi dan mikroba tanah)",
+        "bahan_baku": [
+            "Kotoran sapi yang sudah ditiriskan.",
+            "Sekam sebanyak 10 persen dari bobot kotoran.",
+            "Abu sekam 10 persen dari bobot kotoran.",
+            "Dedak padi 5 persen dari bobot kotoran.",
+            "Campuran larutan 2 cc EM4. 1 liter air. dan 6 sendok makan gula pasir."
+        ],
+        "cara_pembuatan": [
+            "Campurkan kotoran sapi, sekam, abu sekam, dan dedak padi sesuai takaran. Aduk hingga merata.",
+            "Tambahkan larutan EM4, air, dan gula pasir ke campuran bahan pertama, lalu aduk hingga membentuk adonan dengan kadar air sekitar 40%.",
+            "Tutup campuran dengan karung goni atau tikar untuk proses pengomposan aerob.",
+            "Jika suhu bahan organik mencapai 50°C, bolak-balik bahan agar udara masuk dan suhu menurun.",
+            "Proses fermentasi berlangsung 4-5 hari. Pupuk dianggap siap jika mengeluarkan aroma khas fermentasi, terasa kering, dingin, dan ditumbuhi jamur. Jika bau busuk muncul, pembuatan dianggap gagal."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.1 - 0.2 gram",
+            "P": "0.05 - 0.1 gram",
+            "K": "0.05 - 0.1 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas penyerapan air.",
+            "kimia": "Menambah kandungan unsur hara penting ke dalam tanah.",
+            "biologis": "Menghasilkan mikroorganisme yang bermanfaat untuk proses fermentasi dan kesehatan tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Tepung Tulang (Nutrisi)",
+        "bahan_baku": [
+            "Tulang",
+            "Air"
+        ],
+        "cara_pembuatan": [
+                "Simpan tulang dalam kantong Ziploc di dalam freezer hingga jumlah yang dibutuhkan tercapai.",
+                "Sterilkan tulang dengan memanggang dalam oven selama 10-15 menit, lalu rebus dalam panci berisi air mendidih selama 12-24 jam. Alternatif: gunakan Panci Instan untuk membuat kaldu tulang, saring kaldunya, dan lanjutkan merebus tulang dalam Panci Instan hingga lunak.",
+                "Keluarkan tulang, buang sisa lemak atau jaringan daging, dan tempatkan di nampan dehidrator (Jika tidak ada bisa dijemur di bawah sinar matahari terik).",
+                "Dehidrasi tulang pada suhu tinggi (160°F) selama sekitar 4 jam hingga tulang rapuh dan hancur saat diberi tekanan.",
+                "Blender/hancurkan tulang hingga menjadi bubuk halus, lalu simpan dalam wadah kedap udara hingga siap digunakan."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.1 - 0.3 gram",
+            "P": "1.2 - 1.5 gram",
+            "K": "0 - 0.1 gram"
+        },
+        "fungsi": {
+            "fisik": "Tidak secara langsung mempengaruhi struktur tanah.",
+            "kimia": "Menambah fosfor (P) yang penting untuk perkembangan akar dan pembungaan.",
+            "biologis": "Tidak berfungsi langsung pada aspek biologis tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Guano (Nutrisi)",
+        "bahan_baku": [
+            "14ml/1 sendok makan guano",
+            "1 liter air"
+          ],
+        "cara_pembuatan": [
+            "Tuangkan 1 sendok makan guano kelelawar ke dalam 1 liter air hangat. Pastikan air tidak terlalu panas karena dapat membunuh mikroba dalam guano.",
+            "Aduk campuran dengan baik dan nyalakan pompa udara.",
+            "Biarkan campuran istirahat dan menyeduh semalam.",
+            "Gunakan sekali setiap minggu untuk memastikan pertumbuhan tanaman yang subur dan cepat."
+        ],
+        "perkiraan_NPK": {
+            "N": "1 - 1.2 gram",
+            "P": "0.8 - 1 gram",
+            "K": "0.1 - 0.2 gram"
+        },
+        "fungsi": {
+            "fisik": "Tidak secara langsung mempengaruhi struktur tanah.",
+            "kimia": "Menambah nitrogen (N) dan fosfor (P) yang penting untuk pertumbuhan tanaman.",
+            "biologis": "Tidak berfungsi langsung pada aspek biologis tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Alga (Nutrisi dan struktur tanah)",
+        "bahan_baku": [
+            "1000 gram rumput laut segar",
+            "10 liter air",
+            "200 gram daging ikan rucah yang dihaluskan"
+        ],
+        "cara_pembuatan": [
+            "Cuci rumput laut segar dengan air keran untuk membersihkan kotoran.",
+            "Giling rumput laut hingga lumat menggunakan grinder.",
+            "Tambahkan air ke dalam rumput laut yang telah lumat.",
+            "Tambahkan daging ikan rucah yang telah dihaluskan untuk meningkatkan kandungan nitrogen.",
+            "Fermentasi campuran dalam wadah tertutup selama 7-14 hari.",
+            "Ambil cairan hasil fermentasi melalui pipa yang dipasang pada wadah.",
+            "Encerkan cairan dengan air dalam perbandingan 1:10 sebelum diaplikasikan ke tanaman."
+          ],
+        "perkiraan_NPK": {
+            "N": "1.5 - 2 gram",
+            "P": "0.5 - 0.8 gram",
+            "K": "0.8 - 1 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas retensi air.",
+            "kimia": "Menambah nitrogen (N), fosfor (P), dan kalium (K) yang mendukung pertumbuhan tanaman.",
+            "biologis": "Mendukung aktivitas mikroorganisme tanah dan meningkatkan kesehatan tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk Biochar (Struktur tanah)",
+        "bahan_baku": [
+            "Biomassa",
+            "Air"
+        ],
+        "cara_pembuatan":
+            [
+                "Gali parit yang meruncing di ruang terbuka atau siapkan tong logam berbentuk silinder atau tempat pembakaran logam.",
+                "Letakkan perlengkapan keselamatan di sekitar untuk keamanan selama proses.",
+                "Masukkan biomassa ke dalam lubang atau wadah. Letakkan beberapa bahan yang mudah terbakar di atasnya.",
+                "Gunakan korek api untuk menyalakan api.",
+                "Setelah seluruh biomassa diubah menjadi biochar melalui pembakaran anaerobik, siram biochar tersebut untuk mencegah pembakaran spontan.",
+                "Arang biomassa dibuat menjadi butiran atau bubuk."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.02 - 0.1 gram",
+            "P": "0.02 - 0.05 gram",
+            "K": "0.1 - 0.3 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas retensi air.",
+            "kimia": "Menambah unsur hara secara perlahan dan meningkatkan pH tanah.",
+            "biologis": "Mendukung aktivitas mikroorganisme tanah dan meningkatkan kesehatan tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk JADAM (Mikroba tanah)",
+        "bahan_baku": [
+            "1 genggam serasah daun lapuk",
+            "1 biji kentang",
+            "1 sendok makan garam kasar",
+            "10 liter air yang sudah dideklorinasi"
+],
+        "cara_pembuatan": [
+            "Potong dan rebus kentang.",
+            "Bungkus kentang dan daun lapuk masing-masing dalam kain terpisah, tambahkan batu ke dalam tiap kain.",
+            "Rendam kedua kain dalam 10 liter air selama 2 hari.",
+            "Tambahkan air rebusan kentang yang telah dingin ke dalam campuran.",
+            "Gunakan langsung pada tanah jika tidak ada tanaman, atau encerkan dengan air 1:10 jika digunakan pada tanaman.",
+            "Simpan pupuk maksimal satu hari setelah fermentasi selesai."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.02 - 0.07 gram",
+            "P": "0.01 - 0.04 gram",
+            "K": "0.02 - 0.08 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas retensi air.",
+            "kimia": "Menambah unsur hara seperti nitrogen (N), fosfor (P), dan kalium (K).",
+            "biologis": "Menggemburkan tanah dengan menambah pasokan mikoorganisme pada tanah."
+        }
+    },
+    {
+        "nama_pupuk": "Pupuk JAKABA (Nutrisi dan mikroba)",
+        "bahan_baku": 
+            [
+                "1-2 kg akar bambu, 10-15 liter air hujan",
+                "200 gram toge",
+                "2 kg dedak",
+                "1 bungkus micin",
+                "1-2 bungkus trasi",
+                "200 gram gula",
+                "2-3 sendok kapur sirih",
+                "15 liter air hujan"
+              ],
+        "cara_pembuatan": [
+            "Rebus 2 kg dedak dengan 3-5 liter air.",
+            "Aduk terus dan tambahkan semua bahan hingga mendidih.",
+            "Blender 200 gram toge.",
+            "Bagi air rendaman bambu dalam dua wadah.",
+            "Masukkan adonan dedak yang sudah dingin ke dalam salah satu wadah air bambu.",
+            "Tambahkan blenderan toge ke dalam wadah yang sama.",
+            "Aduk hingga tercampur rata.",
+            "Tutup dengan kain dan ikat dengan karet ban.",
+            "Tempatkan di tempat aman dan sejuk.",
+            "Tunggu selama 37 hari."
+        ],
+        "perkiraan_NPK": {
+            "N": "0.15 gram",
+            "P": "0.1 gram",
+            "K": "0.14 gram"
+        },
+        "fungsi": {
+            "fisik": "Meningkatkan struktur tanah dan kapasitas retensi air.",
+            "kimia": "Menambah unsur hara seperti nitrogen (N), fosfor (P), dan kalium (K).",
+            "biologis": "Mendukung aktivitas mikroorganisme tanah dan memperbaiki kesehatan tanah secara keseluruhan."
+        }
+    }
+]

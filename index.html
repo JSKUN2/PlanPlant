@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Plant</title>
+    <link rel="shortcut icon" href="Group 1.svg" type="image/x-icon">
+</head>
+<body>
+    <script>
+        function redirectBasedOnScreenSize() {
+            var screenWidth = window.innerWidth;
+
+            if (screenWidth >= 768) {
+                window.location.href = 'desktop.html';
+            } else {
+                window.location.href = 'phone.html';
+            }
+        }
+
+        window.onload = redirectBasedOnScreenSize;
+    </script>
+</body>
+</html>
