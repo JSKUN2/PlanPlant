@@ -126,180 +126,174 @@
         <div id="details" class="details"></div>
 
         <script>
-            $(document).ready(() => {
-                const $resultList = $('#hasil');
-                let tanaman = [], metodeP = [], pupuk = [];
+        $(document).ready(() => {
+            const $resultList = $('#hasil');
+            let tanaman = [], metodeP = [], pupuk = [];
 
-                async function loadData() {
-                    try {
-                        const respon = await fetch('data/data.json');
-                        const respon2 = await fetch('data/data2.json');
-                        const respon3 = await fetch('data/data3.json')
+            async function loadData() {
+                try {
+                    const respon = await fetch('data/data.json');
+                    const respon2 = await fetch('data/data2.json');
+                    const respon3 = await fetch('data/data3.json');
 
-                        let data = await respon.json();
-                        let data2 = await respon2.json();
-                        let data3 = await respon3.json();
+                    tanaman = await respon.json();
+                    pupuk = await respon2.json();
+                    metodeP = await respon3.json();
 
-                        const seen = {};
-                        const seen2 = {};
-                        const seen3 = {};
-
-                        tanaman = data.filter(item => !seen.hasOwnProperty(item.nama_latin) && (seen[item.nama_latin] = true));
-                        pupuk = data2.filter(item => !seen2.hasOwnProperty(item.nama_pupuk) && (seen2[item.nama_pupuk] = true));
-                        metodeP = data3.filter(item => !seen3.hasOwnProperty(item.metode) && (seen3[item.metode] = true));
-
-                        console.log('Data unik tanaman:', tanaman);
-                        console.log('Data unik pupuk:', pupuk);
-                        console.log('Data unik metode:', metodeP);
-                    } catch (error) {
-                        console.error('Error:', error);
-                    }
+                    console.log('Data unik tanaman:', tanaman);
+                    console.log('Data unik pupuk:', pupuk);
+                    console.log('Data unik metode:', metodeP);
+                } catch (error) {
+                    console.error('Error:', error);
                 }
+            }
 
-                function hasil(results) {
-                    $resultList.empty();
-                    results.forEach(item => {
-                        $('<div>', {
-                            class: 'listHasil',
-                            text: item.nama_tanaman,
-                            click: () => detailTanaman(item)
-                        }).appendTo($resultList);
-                    });
-                }
+            function hasil(results) {
+                $resultList.empty();
+                results.forEach(item => {
+                    $('<div>', {
+                        class: 'listHasil',
+                        text: item.nama_tanaman,
+                        click: () => detailTanaman(item)
+                    }).appendTo($resultList);
+                });
+            }
 
-                function detailTanaman(item) {
-                    $('#details').html(`
-                        <h1 class="card-title">${item.nama_tanaman}</h1>
-                        <h4 class="card-subtitle mb-2 text-body-secondary"><i>${item.nama_latin}</i></h4>
-                        <hr>
-                        <h3 class="card-text">
-                            <strong>- Frekuensi penyiraman :</strong> ${item.frekuensi_penyiraman}<br>
-                            <strong>- Intensitas sinar Matahari :</strong> ${item.intensitas_matahari}<br>
-                            <strong>- Waktu panen :</strong> ${item.waktu_panen}<br>
-                            <strong>- pH tanah :</strong> ${item.PH_tanah_optimal}<br>
-                            <strong>- Suhu optimal :</strong> ${item.suhu_optimal}<br>
-                            <strong>- Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
-                            <strong>- Nutrisi (N-P-K) :</strong> 
+            function detailTanaman(item) {
+                $('#details').html(`
+                    <h1 class="card-title">${item.nama_tanaman}</h1>
+                    <h4 class="card-subtitle mb-2 text-body-secondary"><i>${item.nama_latin}</i></h4>
+                    <hr>
+                    <h3 class="card-text">
+                        <strong>- Frekuensi penyiraman :</strong> ${item.frekuensi_penyiraman}<br>
+                        <strong>- Intensitas sinar Matahari :</strong> ${item.intensitas_matahari}<br>
+                        <strong>- Waktu panen :</strong> ${item.waktu_panen}<br>
+                        <strong>- pH tanah :</strong> ${item.PH_tanah_optimal}<br>
+                        <strong>- Suhu optimal :</strong> ${item.suhu_optimal}<br>
+                        <strong>- Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
+                        <strong>- Nutrisi (N-P-K) :</strong> 
+                        <ul>
+                            <li>Nitrogen : ${item.nutrisi.N}g</li>
+                            <li>Fosfor : ${item.nutrisi.P}g</li>
+                            <li>Kalium : ${item.nutrisi.K}g</li>
+                        </ul>
+                    </h3>
+                `);
+            }
+
+            function detailPupuk(item) {
+                $('#details').html(`
+                    <h1 class="card-title">${item.nama_pupuk}</h1>
+                    <hr>
+                    <h5 class="card-text">
+                        <strong>- Bahan baku :</strong>
+                        <ul>
+                            ${item.bahan_baku.map(bahan => `<li>${bahan}</li>`).join('')}
+                        </ul>
+                        <strong>- Cara pembuatan :</strong>
+                        <ul>
+                            ${item.cara_pembuatan.map(cara => `<li>${cara}</li>`).join('')}
+                        </ul>
+                        <strong>- Perkiraan NPK dalam 10 gram ${item.nama_pupuk}:</strong>
+                        <ul>
+                            <li>Nitrogen : ${item.perkiraan_NPK.N}</li>
+                            <li>Fosfor : ${item.perkiraan_NPK.P}</li>
+                            <li>Kalium : ${item.perkiraan_NPK.K}</li>
+                        </ul>
+                        <strong>- Fungsi :</strong>
+                        <ul>
+                            <li>Fisik : ${item.fungsi.fisik}</li>
+                            <li>Kimia : ${item.fungsi.kimia}</li>
+                            <li>Biologis : ${item.fungsi.biologis}</li>
+                        </ul>
+                    </h3>
+                `);
+            }
+
+            function detailMetode(item) {
+                $('#details').html(`
+                    <h1 class="card-title">${item.metode}</h1>
+                    <hr>
+                    <h5 class="card-text">
+                        ${item.tahapan.map(tahap => `
+                            <h2>${tahap.tahap}</h2>
                             <ul>
-                                <li>Nitrogen : ${item.nutrisi.N}g</li>
-                                <li>Fosfor : ${item.nutrisi.P}g</li>
-                                <li>Kalium : ${item.nutrisi.K}g</li>
+                                <li><strong>Saran pupuk:</strong> ${tahap.saran_pupuk}</li>
+                                <li><strong>Langkah:</strong> ${tahap.langkah}</li>
+                                <li><strong>Tips:</strong> ${tahap.tips}</li>
                             </ul>
-                        </h3>
-                    `);
-                }
+                        `).join('')}
+                    </h5>
+                `);
+            }
 
+            $('#search-input').on('input', function() {
+                const query = $(this).val().toLowerCase();
+                const results = query ? tanaman.filter(item => item.nama_tanaman.toLowerCase().includes(query)) : [];
+                hasil(results);
+            });
 
-                function detailPupuk(item) {
-                    $('#details').html(`
-                        <h1 class="card-title">${item.nama_pupuk}</h1>
-                        <hr>
-                        <h5 class="card-text">
-                            <strong>- Bahan baku :</strong>
-                            <ul>
-                                ${item.bahan_baku.map(bahan => `<li>${bahan}</li>`).join('')}
-                            </ul>
-                            <strong>- Cara pembuatan :</strong>
-                            <ul>
-                                ${item.cara_pembuatan.map(cara => `<li>${cara}</li>`).join('')}
-                            </ul>
-                            <strong>- Perkiraan NPK dalam 10 gram ${item.nama_pupuk}:</strong>
-                            <ul>
-                                <li>Nitrogen : ${item.perkiraan_NPK.N}</li>
-                                <li>Fosfor : ${item.perkiraan_NPK.P}</li>
-                                <li>Kalium : ${item.perkiraan_NPK.K}</li>
-                            </ul>
-                            <strong>- Fungsi :</strong>
-                            <ul>
-                                <li>Fisik : ${item.fungsi.fisik}</li>
-                                <li>Kimia : ${item.fungsi.kimia}</li>
-                                <li>Biologis : ${item.fungsi.biologis}</li>
-                            </ul>
-                        </h3>
-                    `);
-                }
-                function detailMetode(item) {
-                    $('#details').html(`
-                        <h1 class="card-title">${item.metode}</h1>
-                        <hr>
-                        <h5 class="card-text">
-                                ${item.tahapan.map(tahap => `
-                                        <h2>${tahap.tahap}</h2>
-                                        <ul>
-                                            <li><strong>Saran pupuk:</strong> ${tahap.saran_pupuk}</li>
-                                            <li><strong>Langkah:</strong> ${tahap.langkah}</li>
-                                            <li><strong>Tips:</strong> ${tahap.tips}</li>
-                                        </ul>
-                                `).join('')}
-                        </h5>
-                    `);
-                }
-
-
-                $('#search-input').on('input', function() {
+            $('#search-input').on('keypress', function(event) {
+                if (event.key === 'Enter') {
                     const query = $(this).val().toLowerCase();
                     const results = query ? tanaman.filter(item => item.nama_tanaman.toLowerCase().includes(query)) : [];
-                    hasil(results);
-                });
 
-                $('#search-input').on('keypress', function(event) {
-                    if (event.key === 'Enter') {
-                        const query = $(this).val().toLowerCase();
-                        const results = query ? tanaman.filter(item => item.nama_tanaman.toLowerCase().includes(query)) : [];
-
-                        if (results.length > 0) {
-                            detailTanaman(results[0]);
-                        }
+                    if (results.length > 0) {
+                        detailTanaman(results[0]);
                     }
-                });
+                }
+            });
 
-                $("#petunjukTanam").click(async function (e) { 
-                    e.preventDefault();
-                    await loadData();
+            $("#petunjukTanam").click(async function (e) { 
+                e.preventDefault();
+                await loadData();
 
-                    $(".judul").text("Cari Tanaman Anda!");
-                    $("#search-input").show();
-                });
+                $(".judul").text("Cari Tanaman Anda!");
+                $("#search-input").show();
+                $resultList.empty(); // Clear previous results
+            });
 
-                $("#pupuk").click(async function (e) { 
-                    e.preventDefault();
-                    await loadData();
+            $("#pupuk").click(async function (e) { 
+                e.preventDefault();
+                await loadData();
 
-                    $(".judul").text("Cari Pupuk Organik Sesuai Kebutuhan Anda!");
-                    $("#search-input").hide();
+                $(".judul").text("Cari Pupuk Organik Sesuai Kebutuhan Anda!");
+                $("#search-input").hide();
+                $resultList.empty(); // Clear previous results
 
-                    pupuk.forEach(item => {
-                        $('<div>', {
-                            class: 'listHasil',
-                            text: item.nama_pupuk,
-                            click: () => detailPupuk(item)
-                        }).appendTo($resultList);
-                    });
-                });
-                $("#metode").click(async function (e) { 
-                    e.preventDefault();
-                    await loadData();
-
-                    $(".judul").text("Cari Metode Pertanian Sesuai Kebutuhan Anda!");
-                    $("#search-input").hide();
-
-                    metodeP.forEach(item => {
-                        $('<div>', {
-                            class: 'listHasil',
-                            text: item.metode,
-                            click: () => detailMetode(item)
-                        }).appendTo($resultList);
-                    });
-                });
-
-                $(".nav-link").click(function (e) { 
-                    e.preventDefault();
-                    $("#search-input").val("");
-                    $resultList.empty();
-                    $(".details").html("");
+                pupuk.forEach(item => {
+                    $('<div>', {
+                        class: 'listHasil',
+                        text: item.nama_pupuk,
+                        click: () => detailPupuk(item)
+                    }).appendTo($resultList);
                 });
             });
-        
+
+            $("#metode").click(async function (e) { 
+                e.preventDefault();
+                await loadData();
+
+                $(".judul").text("Cari Metode Pertanian Sesuai Kebutuhan Anda!");
+                $("#search-input").hide();
+                $resultList.empty(); // Clear previous results
+
+                metodeP.forEach(item => {
+                    $('<div>', {
+                        class: 'listHasil',
+                        text: item.metode,
+                        click: () => detailMetode(item)
+                    }).appendTo($resultList);
+                });
+            });
+
+            $(".nav-link").click(function (e) { 
+                e.preventDefault();
+                $("#search-input").val("");
+                $resultList.empty();
+                $("#details").empty();
+            });
+        });
         </script>
     </div>
     </body>
