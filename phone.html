@@ -113,22 +113,21 @@
 
                 async function loadData() {
                     try {
-                        const respon = await fetch('data/data.json');
-                        const respon2 = await fetch('data/data2.json');
-                        const respon3 = await fetch('data/data3.json')
+                        const [respon, respon2, respon3] = await Promise.all([
+                            fetch('data/data.json'),
+                            fetch('data/data2.json'),
+                            fetch('data/data3.json')
+                        ]);
 
-                        let data = await respon.json();
-                        let data2 = await respon2.json();
-                        let data3 = await respon3.json();
-
-                        const seen = {};
-                        const seen2 = {};
-                        const seen3 = {};
-
-                        tanaman = data.filter(item => !seen.hasOwnProperty(item.nama_latin) && (seen[item.nama_latin] = true));
-                        pupuk = data2.filter(item => !seen2.hasOwnProperty(item.nama_pupuk) && (seen2[item.nama_pupuk] = true));
-                        metodeP = data3.filter(item => !seen3.hasOwnProperty(item.metode) && (seen3[item.metode] = true));
-
+                        tanaman = (await respon.json()).filter((item, index, self) =>
+                            index === self.findIndex(t => t.nama_latin === item.nama_latin));
+                        
+                        pupuk = (await respon2.json()).filter((item, index, self) =>
+                            index === self.findIndex(p => p.nama_pupuk === item.nama_pupuk));
+                        
+                        metodeP = (await respon3.json()).filter((item, index, self) =>
+                            index === self.findIndex(m => m.metode === item.metode));
+                        
                         console.log('Data unik tanaman:', tanaman);
                         console.log('Data unik pupuk:', pupuk);
                         console.log('Data unik metode:', metodeP);
@@ -137,16 +136,21 @@
                     }
                 }
 
-                function hasil(results) {
+                function renderResults(results) {
                     $resultList.empty();
                     results.forEach(item => {
                         $('<div>', {
                             class: 'listHasil',
-                            text: item.nama_tanaman,
-                            click: () => detailTanaman(item)
+                            text: item.nama_tanaman || item.nama_pupuk || item.metode,
+                            click: () => {
+                                if (item.nama_tanaman) detailTanaman(item);
+                                if (item.nama_pupuk) detailPupuk(item);
+                                if (item.metode) detailMetode(item);
+                            }
                         }).appendTo($resultList);
                     });
                 }
+
                 function detailTanaman(item) {
                     $('#details').html(`
                         <div class="card position-absolute top-0 start-50 translate-middle-x">
@@ -162,7 +166,7 @@
                                     <strong>- pH tanah :</strong> ${item.PH_tanah_optimal}<br>
                                     <strong>- Suhu optimal :</strong> ${item.suhu_optimal}<br>
                                     <strong>- Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
-                                    <strong>- Nutrisi (N-P-K) :</strong> 
+                                    <strong>- Nutrisi (N-P-K) :</strong>
                                     <ul>
                                         <li>Nitrogen : ${item.nutrisi.N}g</li>
                                         <li>Fosfor : ${item.nutrisi.P}g</li>
@@ -242,7 +246,7 @@
                 $('#search-input').on('input', function() {
                     const query = $(this).val().toLowerCase();
                     const results = query ? tanaman.filter(item => item.nama_tanaman.toLowerCase().includes(query)) : [];
-                    hasil(results);
+                    renderResults(results);
                 });
 
                 $('#search-input').on('keypress', function(event) {
@@ -256,57 +260,43 @@
                     }
                 });
 
-                $("#tanaman").click(async function (e) { 
+                $('#tanaman').click(async function (e) { 
                     e.preventDefault();
                     await loadData();
 
-                    $(".judul").text("Cari Tanaman Anda!");
-                    $("#search-input").show();
+                    $('.judul').text('Cari Tanaman Anda!');
+                    $('#search-input').show();
+
+                    renderResults(tanaman);
                 });
 
-                $("#pupuk").click(async function (e) { 
+                $('#pupuk').click(async function (e) { 
                     e.preventDefault();
                     await loadData();
 
-                    $(".judul").text("Cari Pupuk Organik Sesuai Kebutuhan Anda!");
-                    $("#search-input").hide();
+                    $('.judul').text('Cari Pupuk Organik Sesuai Kebutuhan Anda!');
+                    $('#search-input').hide();
 
-                    pupuk.forEach(item => {
-                        $('<div>', {
-                            class: 'listHasil',
-                            text: item.nama_pupuk,
-                            click: () => detailPupuk(item)
-                        }).appendTo($resultList);
-                    });
+                    renderResults(pupuk);
                 });
-                $("#metode").click(async function (e) { 
+
+                $('#metode').click(async function (e) { 
                     e.preventDefault();
                     await loadData();
 
-                    $(".judul").text("Cari Metode Pertanian Sesuai Kebutuhan Anda!");
-                    $("#search-input").hide();
+                    $('.judul').text('Cari Metode Pertanian Sesuai Kebutuhan Anda!');
+                    $('#search-input').hide();
 
-                    metodeP.forEach(item => {
-                        $('<div>', {
-                            class: 'listHasil',
-                            text: item.metode,
-                            click: () => detailMetode(item)
-                        }).appendTo($resultList);
-                    });
+                    renderResults(metodeP);
                 });
 
-                $(".nav-link").click(function (e) { 
+                $('.nav-link').click(function (e) { 
                     e.preventDefault();
-                    $("#search-input").val("");
+                    $('#search-input').val('');
                     $resultList.empty();
-                    $(".details").html("");
-                });
-                $("#listHasil").click(function (e) { 
-                    e.preventDefault();
-                    $(".judul").hide();
+                    $('#details').empty();
                 });
             });
-
         </script>
     </div>
     </body>
