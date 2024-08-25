@@ -165,12 +165,12 @@
                                 <h4 class="card-subtitle mb-2 text-body-secondary"><i>${item.nama_latin}</i></h4>
                                 <hr>
                                 <h6 class="card-text">
-                                    <strong>Frekuensi penyiraman :</strong> ${item.frekuensi_penyiraman}<br>
-                                    <strong>Intensitas sinar Matahari :</strong> ${item.intensitas_matahari}<br>
-                                    <strong>Waktu panen :</strong> ${item.waktu_panen}<br>
-                                    <strong>pH tanah :</strong> ${item.PH_tanah_optimal}<br>
-                                    <strong>Suhu optimal :</strong> ${item.suhu_optimal}<br>
-                                    <strong>Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
+                                    <strong>Frekuensi penyiraman :</strong><br> ${item.frekuensi_penyiraman}<br>
+                                    <strong>Intensitas sinar Matahari :</strong><br> ${item.intensitas_matahari}<br>
+                                    <strong>Waktu panen :</strong><br> ${item.waktu_panen}<br>
+                                    <strong>pH tanah :</strong><br> ${item.PH_tanah_optimal}<br>
+                                    <strong>Suhu optimal :</strong><br> ${item.suhu_optimal}<br>
+                                    <strong>Ketinggian lokasi penanaman :</strong><br> ${item.ketinggian_lokasi_penanaman_optimal}<br>
                                     <strong>Nutrisi (N-P-K) :</strong>
                                     <ul>
                                         <li>Nitrogen : ${item.nutrisi.N}g</li>
@@ -236,9 +236,9 @@
                                     ${item.tahapan.map(tahap => `
                                         <h2>${tahap.tahap}</h2>
                                         <ul>
-                                            <li><strong>Saran pupuk:</strong> ${tahap.saran_pupuk}</li>
-                                            <li><strong>Langkah:</strong> ${tahap.langkah}</li>
-                                            <li><strong>Tips:</strong> ${tahap.tips}</li>
+                                            <li><strong>Saran pupuk:</strong><br> ${tahap.saran_pupuk}</li>
+                                            <li><strong>Langkah:</strong><br> ${tahap.langkah}</li>
+                                            <li><strong>Tips:</strong><br> ${tahap.tips}</li>
                                         </ul>
                                     `).join('')}
                                 </h5>
