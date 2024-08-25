@@ -99,7 +99,7 @@
             <div class="collapse navbar-collapse position-absolute top-50 start-50 translate-middle" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link aktif" href="#" id="petunjukTanam">
+                    <a class="nav-link aktif" href="#" id="tanaman">
                         <img src="icon/7141564811595156044.svg" alt="" width="50" height="50">
                     </a>
                 </li>
@@ -245,13 +245,21 @@
                 }
             });
 
-            $("#petunjukTanam").click(async function (e) { 
+            $("#tanaman").click(async function (e) { 
                 e.preventDefault();
                 await loadData();
 
                 $(".judul").text("Cari Tanaman Anda!");
                 $("#search-input").show();
                 $resultList.empty();
+
+                tanaman.forEach(item => {
+                    $('<div>', {
+                        class: 'listHasil',
+                        text: item.nama_tanaman,
+                        click: () => detailTanaman(item)
+                    }).appendTo($resultList);
+                });
             });
 
             $("#pupuk").click(async function (e) { 
@@ -294,6 +302,7 @@
                 $resultList.empty();
                 $("#details").empty();
             });
+            $("#tanaman").trigger('click');
         });
         </script>
     </div>
