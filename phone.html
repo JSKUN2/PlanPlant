@@ -87,15 +87,15 @@
 <body>
     <header>
         <nav class="navbar fixed-bottom d-flex justify-content-evenly">
-                        <a class="nav-link" href="#" id="tanaman">
-                            <img src="icon/7141564811595156044.svg" alt="">
-                        </a>
-                        <a class="nav-link" href="#" id="pupuk">
-                            <img src="icon/13028108441645021863.svg" alt="">
-                        </a>
-                        <a class="nav-link" href="#" id="metode">
-                            <img src="icon/20992550271581665310.svg" alt="">
-                        </a>
+            <a class="nav-link" href="#" id="tanaman">
+                <img src="icon/7141564811595156044.svg" alt="">
+            </a>
+            <a class="nav-link" href="#" id="pupuk">
+                <img src="icon/13028108441645021863.svg" alt="">
+            </a>
+            <a class="nav-link" href="#" id="metode">
+                <img src="icon/20992550271581665310.svg" alt="">
+            </a>
         </nav>
         <br>
         <h1 class="judul"></h1> <br>
@@ -268,6 +268,13 @@
                     $('#search-input').show();
 
                     renderResults(tanaman);
+                    tanaman.forEach(item => {
+                        $('<div>', {
+                            class: 'listHasil',
+                            text: item.nama_tanaman,
+                            click: () => detailTanaman(item)
+                        }).appendTo($resultList);
+                    });
                 });
 
                 $('#pupuk').click(async function (e) { 
@@ -296,6 +303,7 @@
                     $resultList.empty();
                     $('#details').empty();
                 });
+                $("#tanaman").trigger('click');
             });
         </script>
     </div>
