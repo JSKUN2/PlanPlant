@@ -157,23 +157,23 @@
                             <button type="button" class="btn-close position-absolute top-0 end-0" aria-label="Close"></button>
                             <br>
                             <div class="card-body">
-                                <h1 class="card-title">${item.nama_tanaman}</h1>
+                                <h2 class="card-title">${item.nama_tanaman}</h2>
                                 <h4 class="card-subtitle mb-2 text-body-secondary"><i>${item.nama_latin}</i></h4>
                                 <hr>
-                                <h3 class="card-text">
-                                    <strong>- Frekuensi penyiraman :</strong> ${item.frekuensi_penyiraman}<br>
-                                    <strong>- Intensitas sinar Matahari :</strong> ${item.intensitas_matahari}<br>
-                                    <strong>- Waktu panen :</strong> ${item.waktu_panen}<br>
-                                    <strong>- pH tanah :</strong> ${item.PH_tanah_optimal}<br>
-                                    <strong>- Suhu optimal :</strong> ${item.suhu_optimal}<br>
-                                    <strong>- Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
-                                    <strong>- Nutrisi (N-P-K) :</strong>
+                                <h6 class="card-text">
+                                    <strong>Frekuensi penyiraman :</strong> ${item.frekuensi_penyiraman}<br>
+                                    <strong>Intensitas sinar Matahari :</strong> ${item.intensitas_matahari}<br>
+                                    <strong>Waktu panen :</strong> ${item.waktu_panen}<br>
+                                    <strong>pH tanah :</strong> ${item.PH_tanah_optimal}<br>
+                                    <strong>Suhu optimal :</strong> ${item.suhu_optimal}<br>
+                                    <strong>Ketinggian lokasi penanaman :</strong> ${item.ketinggian_lokasi_penanaman_optimal}<br>
+                                    <strong>Nutrisi (N-P-K) :</strong>
                                     <ul>
                                         <li>Nitrogen : ${item.nutrisi.N}g</li>
                                         <li>Fosfor : ${item.nutrisi.P}g</li>
                                         <li>Kalium : ${item.nutrisi.K}g</li>
                                     </ul>
-                                </h3>
+                                </h6>
                             </div>
                         </div>
                     `);
@@ -188,30 +188,30 @@
                             <button type="button" class="btn-close position-absolute top-0 end-0" aria-label="Close"></button>
                             <br>
                             <div class="card-body">
-                                <h1 class="card-title">${item.nama_pupuk}</h1>
+                                <h2 class="card-title">${item.nama_pupuk}</h2>
                                 <hr>
-                                <h5 class="card-text">
-                                    <strong>- Bahan baku :</strong>
+                                <h6 class="card-text">
+                                    <strong>Bahan :</strong>
                                     <ul>
                                         ${item.bahan_baku.map(bahan => `<li>${bahan}</li>`).join('')}
                                     </ul>
-                                    <strong>- Cara pembuatan :</strong>
+                                    <strong>Cara pembuatan :</strong>
                                     <ul>
                                         ${item.cara_pembuatan.map(cara => `<li>${cara}</li>`).join('')}
                                     </ul>
-                                    <strong>- Perkiraan NPK dalam 10 gram ${item.nama_pupuk}:</strong>
+                                    <strong>Perkiraan NPK dalam 10 gram ${item.nama_pupuk}:</strong>
                                     <ul>
                                         <li>Nitrogen : ${item.perkiraan_NPK.N}</li>
                                         <li>Fosfor : ${item.perkiraan_NPK.P}</li>
                                         <li>Kalium : ${item.perkiraan_NPK.K}</li>
                                     </ul>
-                                    <strong>- Fungsi :</strong>
+                                    <strong>Fungsi :</strong>
                                     <ul>
                                         <li>Fisik : ${item.fungsi.fisik}</li>
                                         <li>Kimia : ${item.fungsi.kimia}</li>
                                         <li>Biologis : ${item.fungsi.biologis}</li>
                                     </ul>
-                                </h5>
+                                </h6>
                             </div>
                         </div>
                     `);
